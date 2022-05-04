@@ -4,7 +4,7 @@
 # - if we have multiple class then do nms seperate for each class
 
 import torch 
-from calculate iou import intersection_over_union
+from calculate_iou import intersection_over_union
 
 def non_max_suppression(predictions, iou_threshold,prob_threshold, box_format='corners'):
   """
